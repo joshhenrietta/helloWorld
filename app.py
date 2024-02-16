@@ -5,11 +5,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():  # put application's code here
-    return ('Hello World from Joshua Henrietta! I am adding my first code change')
+    return 'Hello World from Josh Henrietta! I am adding my first code change'
 
 @app.route('/hello')
 def hello():
-    return render_template ('hello.html')
+    return render_template('hello.html')
 
 if __name__ == '__main__':
     app.run()
