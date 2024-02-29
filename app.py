@@ -13,7 +13,7 @@ def hello():
 
 @app.route('/about')
 def about():
-    return render_template('about-css.html')
+    return render_template('about-css')
 
 if __name__ == '__main__':
     app.run()
