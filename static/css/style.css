@@ -1,0 +1,47 @@
+/* Styling paragraphs */
+.basic-paragraph {
+        color: #00008b;
+        font-size: 1em;
+        text-decoration: underline;
+    }
+
+.big-purple {
+        color: #800080;
+        font-size: 2em;
+    }
+
+.paragraph-three {
+        color: #7fff00;
+        font-size: 2em;
+    }
+
+
+/* Styling the second header */
+.header-two {
+       color: #ebeb34;
+        font-size: 3em;
+   }
+
+
+/* Styling the tables */
+table, td, th {
+        border-style: solid;
+        border-color: #000000;
+  }
+
+
+/* Styling the logos */
+.logo {
+        height: 100px;
+        width: 200px;
+  }
+
+    /* Creating new CSS rule block */
+.new-rule {
+    color: #00ffff;
+}
+
+
+
+
+
