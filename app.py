@@ -23,7 +23,7 @@ def about_css():
 def favorite_course():
     return render_template('favorite-course.html', courses=favorite_course)
 
-@app.route('/contact')
+@app.route('/contact', methods=['GET', 'POST'])
 def contact():
     if request.method == 'POST':
         return render_template('contact.html', form_submitted=True)
