@@ -19,5 +19,15 @@ def about():
 def about_css():
     return render_template('about-css.html')
 
+@app.route('/favorite-course')
+def about_css():
+    favorite_course = ['BMGT302', 'BMGT402', 'BMGT403', 'BMGT407']
+
+    return render_template('favorite-course.html', courses=favorite_course)
+
+@app.route('/contact')
+def about_css():
+    return render_template('contact.html')
+
 if __name__ == '__main__':
     app.run()
