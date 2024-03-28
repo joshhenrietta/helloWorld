@@ -21,8 +21,6 @@ def about_css():
 
 @app.route('/favorite-course')
 def about_css():
-    favorite_course = ['BMGT302', 'BMGT402', 'BMGT403', 'BMGT407']
-
     return render_template('favorite-course.html', courses=favorite_course)
 
 @app.route('/contact')
