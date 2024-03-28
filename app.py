@@ -20,11 +20,11 @@ def about_css():
     return render_template('about-css.html')
 
 @app.route('/favorite-course')
-def about_css():
+def favorite_course():
     return render_template('favorite-course.html', courses=favorite_course)
 
 @app.route('/contact')
-def about_css():
+def contact():
     if request.method == 'POST':
         return render_template('contact.html', form_submitted=True)
     else:
